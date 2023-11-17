@@ -136,5 +136,14 @@ img {
 
 /*MOBILE*/
 @media screen and (max-width: 480px) {
-    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+    }
+
 }
